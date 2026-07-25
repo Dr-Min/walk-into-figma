@@ -1,0 +1,6 @@
+interface:
+  display_name: "UI Screen Specification"
+  short_description: "Define IA, flows, screens, states, and UI copy"
+  default_prompt: "Use $ui-screen-spec to turn my approved product requirements into implementation-ready screen and interaction specifications."
+policy:
+  allow_implicit_invocation: false

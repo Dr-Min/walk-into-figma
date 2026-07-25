@@ -1,0 +1,6 @@
+interface:
+  display_name: "Product Discovery & PRD"
+  short_description: "Turn rough product input into an approved PRD"
+  default_prompt: "Use $product-discovery-prd to inspect my existing materials and develop them into a decision-complete, approved PRD."
+policy:
+  allow_implicit_invocation: false

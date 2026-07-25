@@ -1,0 +1,6 @@
+interface:
+  display_name: "걸어서 Figma(디자인) 속으로"
+  short_description: "아이디어부터 명세·목업·Figma·개발 전달까지"
+  default_prompt: "Use $walk-into-figma to inspect my existing product artifacts and guide the work to a validated design and developer-ready Figma handoff."
+policy:
+  allow_implicit_invocation: true

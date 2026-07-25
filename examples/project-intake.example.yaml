@@ -1,0 +1,19 @@
+project:
+  name: "Northstar"
+  goal: "Help small teams plan and review product launches"
+  platforms:
+    - web
+    - mobile-web
+sources:
+  - path_or_url: "./proposal.md"
+    type: proposal
+    status: FOUND
+    authority: user-provided
+    last_modified: "2026-07-25"
+stages:
+  discovery_prd: FOUND
+  screen_spec: MISSING
+  visual_reference: MISSING
+  figma_build: MISSING
+  handoff_audit: MISSING
+mode: staged-review

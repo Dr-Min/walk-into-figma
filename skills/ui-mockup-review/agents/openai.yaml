@@ -1,0 +1,6 @@
+interface:
+  display_name: "UI Mockup Review"
+  short_description: "Generate, compare, and approve product UI mockups"
+  default_prompt: "Use $ui-mockup-review to audit my current UI references and create any missing representative mockups for approval."
+policy:
+  allow_implicit_invocation: false
