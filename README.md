@@ -176,7 +176,7 @@ and lists `Decision required`, `Approval required`, `Missing evidence`, `Conflic
 
 AI recommendations never become user decisions automatically.
 
-A deferral is valid only when the user approves its reason, owner, target release or review date, current-release impact, and temporary behavior. Decisions required for current-release legality, safety, privacy, payment integrity, the primary journey, or acceptance testing cannot be deferred.
+A deferral is valid only when the user approves its reason, owner, target release or review date, current-release impact, and temporary behavior.
 
 ## Why visual mockups exist
 
@@ -214,7 +214,7 @@ The package does not bundle external services. It calls available capabilities o
 - **ImageGen** — missing representative UI mockups;
 - **Figma MCP and official Figma skills** — Figma inspection, creation, updates, libraries, and prototype work;
 - **browser/Present mode** — interaction QA;
-- **web research** — current laws, prices, vendor capabilities, or other unstable facts.
+- **web research** — current prices, vendor capabilities, technical specifications, or other unstable facts.
 
 Before writing to Figma, the builder verifies the authenticated account, team, destination file, permissions, and approved scope. A mismatch stops the write.
 
@@ -359,13 +359,6 @@ The screen specification is completed first. Then representative visual concepts
 ### Why does the process stop?
 
 It stops when a material decision would change scope, cost, risk, policy, primary behavior, visual direction, or the production destination. Resolve or explicitly defer the item to continue.
-
-## Security and privacy
-
-- Do not commit tokens, cookies, private Figma file keys, personal emails, customer data, or production credentials.
-- Keep project-specific sensitive files outside this repository.
-- Review generated artifacts before sharing.
-- Treat legal, policy, price, and vendor claims as time-sensitive and verify primary sources.
 
 ## Contributing
 
